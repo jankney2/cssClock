@@ -1,0 +1,38 @@
+.clock {
+border: 5px solid #000;
+width:25%;
+border-radius: 50%;
+padding: 10%;
+position: absolute;
+top:25%;
+left:25%;
+
+
+}
+
+
+.hand {
+    position:absolute;
+    width: 15%;
+    height: 1%;
+
+    transition:all .1s cubic-bezier(0.1, 2.7, 0.58, 1);
+    transform-origin: 100%;
+    /* transform: rotate(90deg) */
+}
+
+.hourHand {
+    /* width:33%; */
+    background-color: green;
+
+}
+
+
+.minuteHand {
+    background-color: red;
+
+}
+
+.secondHand {
+    background-color: blue;
+}
