@@ -1,8 +1,9 @@
 .clockFace {
-    position: absolute;
-    top:25%;
-    left:25%;
+border: 1px solid #000;
+    background-color: green;
+    padding:20%;
 }
+
 
 
 .hand {
@@ -17,7 +18,7 @@
 
 .hourHand {
     /* width:33%; */
-    background-color: green;
+    background-color: yellow;
 
 }
 

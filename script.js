@@ -6,6 +6,7 @@ function updateCss() {
   hours = d.getHours()/12*360+90 ;
 
 
+
   console.log(seconds, minutes, hours)
   //update position of hands to match
 
